@@ -22,5 +22,10 @@ pipeline {
                 echo "This is 4th stage"
             }
         }
+        stage('name of the session') {
+            steps {
+                echo "multibranch session"
+            }
+        }
     }
 }
